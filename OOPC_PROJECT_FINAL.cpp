@@ -1,7 +1,8 @@
 //Banking management system
+//Created By Meet Radadiya(22AIML042), Ronak Kawar(22AIML017), Ansh Trivedi(22AIML056)
 #include <iostream>
 #include <vector>
-#include <string>
+#include <string>                   //Here We Can Use #include<bits/stdc++.h> instead of write #include ... for different libraries
 #include <fstream>
 #include <iomanip>
 
@@ -150,6 +151,7 @@ public:
             account->withdraw(amount);
         }
     }
+    
      // Define a public function to print the details of an account
     void printAccountDetails(int accountNumber)
     {
@@ -165,6 +167,7 @@ public:
             account->printDetails();
         }
     }
+    
     // Define a public function to generate a report
     void generateReport()
     {
@@ -308,4 +311,3 @@ int main()
     return 0;
 
 }
-
